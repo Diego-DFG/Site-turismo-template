@@ -1,0 +1,33 @@
+.conteudo__destaque {
+    height: 31.5rem;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../img/turismo__04.jpeg)no-repeat center/cover;
+}
+
+.destaque__titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+    font-family: 'Encode Sans', sans-serif;
+    margin-left: 2rem;
+}
+
+.titulo-p2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.titulo-p2_lead {
+    color: tomato;
+}
+
+.destaque__saiba-mais {
+    position: relative;
+    bottom: 2rem;
+    cursor: pointer;
+    color: #fff;
+    font-size: 2rem;
+    left: 50%
+}
