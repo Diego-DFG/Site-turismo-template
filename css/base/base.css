@@ -1,6 +1,26 @@
 
 @import url(../secoes/_navegacao.css);
 @import url(../secoes/_destaque.css);
+@import url(../secoes/_secoes__lead.css);
+@import url(../secoes/_secoes__pacotes.css);
+@import url(../secoes/_secoes__viagens.css);
+
+@import url(../componentes/_botoes.css);
+@import url(../componentes/_titulos.css);
+
+:root {
+
+    /* Cores primárias */
+
+    --branco: #fff;
+    --preto: #333;
+    --cinza: #999;
+    --cinza-claro: rgba(0,0,0,0.2);
+    --tomate: tomato;
+    --azul: #2978b5;
+    --azul-claro: #4ca1a3;
+
+}
 
 body {
     padding: 0;

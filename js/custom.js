@@ -29,8 +29,8 @@
 			} 
 		}); 
 
-		$('#up_page').on('click', function() {
-			$('html, body').animate({scrollTop: 0}, 600);
+		$('.destaque__saiba-mais').on('click', function() {
+			$('html, body').animate({scrollTop: 600}, 600);
 		});
 
 		var $doc = $('html, body');

@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 1px solid #4ca1a3;
 }
 
 .navegacao__conteudo {
@@ -14,7 +13,7 @@
     display: flex;
     margin-top: 1rem;
     margin-left: 2rem;
-    color: #2978b5;
+    color: var(--azul);
     font-family: 'Fugaz One', cursive;
     font-size: 1rem;
 }
@@ -26,7 +25,7 @@
 
 .lista__link {
     margin-right: 3rem;
-    color: #2978b5;
+    color: var(--azul);
 }
 
 .lista__link:hover {
@@ -35,8 +34,8 @@
 
 .navegacao__contato {
     display: flex;
-    background: #4ca1a3;
-    color: #fff;
+    background: var(--azul-claro);
+    color: var(--branco);
 }
 
 .envelope {
@@ -48,7 +47,7 @@
     margin-top: 0.7rem;
     margin-left: 0.5rem;
     padding-right: 1rem;
-    border-right: 1px solid #fff;
+    border-right: 1px solid var(--branco);
 }
 
 .contato__phone {

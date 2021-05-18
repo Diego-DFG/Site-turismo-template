@@ -1,0 +1,121 @@
+.secoes__viagens {
+    height: 40rem;
+}
+
+.secoes__viagens-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    transition: .2 ease-in-out;
+}
+
+.viagens__card:hover {
+    box-shadow: 5px 5px 10px var(--cinza);
+    cursor: pointer;
+}
+
+.titulo__viagens {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.viagens__card {
+    margin: 3rem 2rem;
+    border-radius: 0.5rem;
+    line-height: 1;
+    background: var(--branco);
+    border: 1px solid var(--cinza-claro);
+    height: 30rem;
+    width: 20rem;
+}
+
+.card__img {
+    height: 40%;
+    width: 100%;
+}
+
+.card__ancora {
+    padding: 0 0.5rem;
+    border-radius: 0.2rem;
+    position: relative;
+    bottom: 0.8rem;
+    left: 1rem;
+    background: var(--tomate);
+    color: var(--branco);
+}
+
+.card__ancora:hover {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.card__servico {
+    margin-left: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: var(--cinza);
+}
+
+.card__destino {
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+.card__avaliacao {
+    display: flex;
+}
+
+.card__avalicao-numero {
+    background: var(--azul);
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    margin-left: 1rem;
+    color: var(--branco);
+}
+
+.star {
+    margin-left: 0.6rem;
+    color: var(--tomate);
+}
+
+.card__preco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--preto);
+}
+
+.card__preco-descricao {
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.preco-descricao-usuario {
+    font-size: 0.8rem;
+}
+
+.preco-valores {
+    display: flex;
+}
+
+.preco-descricao-valor span {
+    font-size: 1.5rem;
+}
+
+.preco-descricao-valor__antigo {
+    text-decoration: line-through;
+    margin-left: 0.5rem;
+}
+
+.card__preco-desconto {
+    background: var(--azul-claro);
+    color: var(--branco);
+    padding: 0.2rem;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+}

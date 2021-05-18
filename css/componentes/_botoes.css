@@ -1,0 +1,20 @@
+.lead__btn {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background: var(--tomate);
+    cursor: pointer;
+    color: var(--branco);
+}
+
+.lead__btn:hover, .pacotes__btn-lead:hover {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.pacotes__btn-lead {
+    padding: 0.5rem 1rem;
+    background: #000;
+    color: var(--branco);
+    border-radius: 1rem;
+    cursor: pointer;
+}

@@ -1,5 +1,5 @@
 .conteudo__destaque {
-    height: 31.5rem;
+    height: 33rem;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../img/turismo__04.jpeg)no-repeat center/cover;
 }
 
@@ -25,9 +25,27 @@
 
 .destaque__saiba-mais {
     position: relative;
-    bottom: 2rem;
+    bottom: 4rem;
     cursor: pointer;
     color: #fff;
     font-size: 2rem;
-    left: 50%
+    left: 50%;
+    transition: all 2s ease;
+	animation: fromBottom;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes fromBottom {
+	0% {
+		transform: translateY(10px);
+	}
+
+	50% {
+		transform: translateY(-10px);
+	}
+
+	100% {
+		transform: translateY(10px);
+	}
 }
