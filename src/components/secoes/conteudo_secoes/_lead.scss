@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.secoes__lead {
+    height: 30rem;
+    display: flex;
+
+    .lead__texto, .lead__mockup {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lead__mockup {
+        margin-top: 2.22rem;
+        margin-left: 27rem;
+        width: 10%;
+    }
+
+    .lead__texto {
+
+        &-paragrafo {
+            font-size: 2rem;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            text-align: center;
+            line-height: 1.5;
+            margin-top: 2rem;
+            width: 70%;
+        }
+    
+        &-titulo {
+            font-size: 5rem;
+        }
+    }
+}
+
+
+
+
+
+
+

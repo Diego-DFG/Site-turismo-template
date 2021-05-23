@@ -1,0 +1,41 @@
+$amarelo: yellow;
+$branco: #fff;
+$preto: #333;
+
+.secoes__pacotes {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    background: $amarelo;
+
+    .pacotes__texto {
+        width: 25%;
+
+        &-paragrafo {
+            margin-left: 2rem;
+            margin-top: 1rem;
+            text-align: center;
+            font-weight: bold;
+
+            &-destaque {
+                background: $preto;
+                color: $branco;
+                padding: 0.1rem 0.3rem;
+            }
+        }
+    }
+
+    .pacotes__btn {
+        margin-top: 1.5rem;
+    }
+
+    .pacotes__descricao {
+        width: 50%;
+        margin-right: 2rem;
+    }
+    
+}
+
+
+
+

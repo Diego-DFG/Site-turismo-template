@@ -1,0 +1,26 @@
+$tomate: tomato;
+$branco: #fff;
+$preto: #000;
+
+.lead__btn {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background: $tomate;
+    cursor: pointer;
+    color: $branco;
+}
+
+.lead__btn:hover, .pacotes__btn-lead:hover {
+    text-decoration: none;
+    color: $branco;
+}
+
+.pacotes__btn-lead {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    background: $preto;
+    color: $branco;
+    border-radius: 1rem;
+    cursor: pointer;
+}

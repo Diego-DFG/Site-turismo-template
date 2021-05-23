@@ -1,0 +1,78 @@
+$branco: #fff;
+$tomate: tomato;
+$azul: #2978b5;
+
+.secoes__vantagens {
+    height: 40rem;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)100%), url(../../../assets/img/turismo__11.jpeg)no-repeat center/cover;
+
+    .titulo__vantagens {
+        padding-top: 2rem;
+        margin-left: 2rem;
+        color: $branco;
+        font-size: 2rem;
+    }
+
+    .vantagens__titulo-paragrafo {
+        color: $branco;
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
+
+    .vantagens__cards {
+        height: 35rem;
+        display: flex;
+        justify-content:space-between;
+        margin: 0 2rem;
+
+        &-container {
+            height: 25rem;
+            width: 30rem;
+            margin: 5rem 1rem;
+            border-radius: 0.5rem;
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+            background: $branco;
+            font-family: 'Roboto', sans-serif;
+
+            .shield, .wallet, .cog {
+                font-size: 2rem;
+                margin: 1rem 0;
+                margin-left: 1rem;
+                color: $azul;
+            }
+
+            .vantagens__cards-titulo {
+                margin-left: 1rem;
+                height: 2rem;
+            }
+
+            .vantagens__paragrafo-cards {
+                margin: 5rem 0;
+                margin-left: 1rem;
+                color: rgba(0,0,0,0.4);
+                font-size: 0.8rem;
+            }
+
+            .vantagens__cards-botao {
+                padding: 1rem 2rem;
+                text-decoration: none;
+                background: $tomate;
+                border-top-right-radius: 0.5rem;
+                color: $branco;
+
+                &:hover {
+                    color: $branco;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

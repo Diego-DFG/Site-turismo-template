@@ -1,0 +1,56 @@
+$branco: #fff;
+$tomate: tomato;
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&display=swap');
+
+.conteudo__destaque {
+    height: 33rem;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../../assets/img/turismo__04.jpeg)no-repeat center/cover;
+}
+
+.destaque__titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: $branco;
+    font-family: 'Encode Sans', sans-serif;
+    margin-left: 2rem;
+}
+
+.titulo-p2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.titulo-p2_lead {
+    color: $tomate;
+}
+
+.destaque__saiba-mais {
+    position: relative;
+    bottom: 4rem;
+    cursor: pointer;
+    color: $branco;
+    font-size: 2rem;
+    left: 50%;
+    transition: all 2s ease;
+	animation: fromBottom;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes fromBottom {
+	0% {
+		transform: translateY(10px);
+	}
+
+	50% {
+		transform: translateY(-10px);
+	}
+
+	100% {
+		transform: translateY(10px);
+	}
+}
