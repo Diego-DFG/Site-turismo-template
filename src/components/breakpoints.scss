@@ -1,0 +1,56 @@
+@media (max-width: 850px) {
+
+    /*Seção lead */
+    .secoes__lead {
+        height: 24.5rem;
+
+        &-mockup {
+            margin-top: 2.22rem;
+            margin-left: 13rem;
+            width: 10%;
+
+            .mockup__img {
+                height: 20rem;
+            }
+        }
+
+        &-texto__paragrafo {
+            font-size: 0.8rem;
+        }
+
+        &-btn {
+            font-size: 1rem;
+        }
+    }
+
+    /*Seção pacotes*/
+    .secoes__pacotes {
+        height: 12rem;
+
+        &-texto {
+            font-size: 0.8rem;
+
+            &-paragrafo {
+                text-align: left;
+            }
+        }
+
+        &-btn {
+            margin-top: 5rem;
+            margin-left: 5rem;
+
+            &-ancora {
+                padding: 0.2rem;
+            }
+        }
+
+        &-descricao {
+            .pacotes__descricao-paragrafo {
+                font-size: 0.8rem;
+                margin-left: 6rem;
+                width: 60%;
+            }
+        }
+    }
+}
+

@@ -8,7 +8,7 @@ $preto: #333;
     justify-content: space-between;
     background: $amarelo;
 
-    .pacotes__texto {
+    &-texto {
         width: 25%;
 
         &-paragrafo {
@@ -24,14 +24,18 @@ $preto: #333;
             }
         }
     }
-
-    .pacotes__btn {
+    &-btn {
         margin-top: 1.5rem;
+        width: 100%;
     }
 
-    .pacotes__descricao {
+    &-descricao {
         width: 50%;
         margin-right: 2rem;
+
+        .pacotes__descricao-paragrafo {
+            font-weight: bold;
+        }
     }
     
 }

@@ -4,7 +4,7 @@
     height: 30rem;
     display: flex;
 
-    .lead__texto, .lead__mockup {
+    &-texto, &-mockup {
         height: 100%;
         width: 50%;
         display: flex;
@@ -13,15 +13,15 @@
         align-items: center;
     }
 
-    .lead__mockup {
+    &-mockup {
         margin-top: 2.22rem;
         margin-left: 27rem;
         width: 10%;
     }
 
-    .lead__texto {
+    &-texto {
 
-        &-paragrafo {
+        &__paragrafo {
             font-size: 2rem;
             text-transform: uppercase;
             font-family: 'Roboto', sans-serif;
@@ -30,10 +30,10 @@
             line-height: 1.5;
             margin-top: 2rem;
             width: 70%;
-        }
-    
-        &-titulo {
-            font-size: 5rem;
+
+            .paragrafo__titulo {
+                font-size: 5rem;
+            }
         }
     }
 }

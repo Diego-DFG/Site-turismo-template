@@ -2,7 +2,7 @@ $tomate: tomato;
 $branco: #fff;
 $preto: #000;
 
-.lead__btn {
+.secoes__lead-btn {
     padding: 1rem 2rem;
     text-decoration: none;
     font-size: 1.5rem;
@@ -11,12 +11,12 @@ $preto: #000;
     color: $branco;
 }
 
-.lead__btn:hover, .pacotes__btn-lead:hover {
+.secoes__lead-btn:hover, .secoes__pacotes-btn-ancora:hover {
     text-decoration: none;
     color: $branco;
 }
 
-.pacotes__btn-lead {
+.secoes__pacotes-btn-ancora {
     padding: 0.5rem 1rem;
     text-decoration: none;
     background: $preto;

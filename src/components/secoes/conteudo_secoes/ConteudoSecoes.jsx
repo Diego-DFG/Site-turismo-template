@@ -14,38 +14,39 @@ import './_lead.scss';
 import './_pacotes.scss';
 import './_viagens.scss';
 import './_vantagens.scss';
+import '../../breakpoints.scss';
 
 export default class ConteudoSecoes extends Component {
     render() {
         return(
             <section>
                 <div class="secoes__lead">
-                    <div class="lead__mockup">
+                    <div class="secoes__lead-mockup">
                         <img class="mockup__img" src={mockup_lead} alt=""/>
                     </div>
-                    <div class="lead__texto">
-                        <h2 class="lead__texto-paragrafo">Viaje com a Travelfy e GANHE 
-                            <strong class="titulo-p2_lead lead__texto-titulo">30%</strong> de desconto na hospedagem
+                    <div class="secoes__lead-texto">
+                        <h2 class="secoes__lead-texto__paragrafo">Viaje com a Travelfy e GANHE 
+                            <strong class="titulo-p2_lead paragrafo__titulo">30%</strong> de desconto na hospedagem
                         </h2>
-                        <a class="lead__btn" href="">Quero desconto!</a>
+                        <a class="secoes__lead-btn" href="">Quero desconto!</a>
                     </div>
                 </div>
                 <div class="secoes__pacotes">
-                    <div class="pacotes__texto">
-                        <p class="pacotes__texto-paragrafo">
-                            <strong class="pacotes__texto-paragrafo-destaque">Planos personalizados</strong> 
-                            para suas necessidades profissionais
-                        </p>
-                    </div>
-                    <div class="pacotes__btn">
-                        <a class="pacotes__btn-lead" href="">Saiba mais</a>
-                    </div>
-                    <div class="pacotes__descricao">
-                        <p class="pacotes__texto-paragrafo">
-                            Confira nosso planos pensados para você não se preocupar
-                            com hospedagens e transporte durante sua jornada profissional
-                        </p>
-                    </div>
+                        <div class="secoes__pacotes-texto">
+                            <p className="secoes__pacotes-texto-paragrafo">
+                                <strong className="secoes__pacotes-texto-paragrafo-destaque">Planos personalizados</strong> 
+                                para suas necessidades profissionais
+                            </p>
+                        </div>
+                        <div className="secoes__pacotes-btn">
+                            <a className="secoes__pacotes-btn-ancora" href="">Saiba mais</a>
+                        </div>
+                        <div className="secoes__pacotes-descricao">
+                            <p className="pacotes__descricao-paragrafo">
+                                Confira nosso planos pensados para você não se preocupar
+                                com hospedagens e transporte durante sua jornada profissional
+                            </p>
+                        </div>
                 </div>
                 <div class="secoes__viagens">
                     <h2 class="secoes__titulo titulo__viagens">Confira nossos pacotes</h2>
