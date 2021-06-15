@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Turismo</title>
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./css/bibliotecas/reset.css">
+
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="./css/base/base.css">
+
+    <!-- Bibliotecas -->
+    <link rel="stylesheet" href="./css/bibliotecas/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+    crossorigin="anonymous">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+
+        <nav class="navegacao navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navegacao__conteudo container-fluid">
+                <nav class="navbar-brand">
+                    <div class="navegacao__logo">
+                        <h1 class="logo">Travelfy</h1>
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-ancora" href="#">Pacotes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Vantagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+          <div class="navegacao__contato">
+              <div class="navegacao__contato-email">
+                <i class="envelope fas fa-envelope"></i>
+                <p class="contato__texto">contato@travelfy.com.br</p>
+              </div>
+              <div class="navegacao__contato-phone">
+                <i class="envelope fas fa-phone"></i>
+                <p class="contato__texto contato__phone">(21) 99999-9999</p>
+              </div>
+        </div>
+        <section class="conteudo__destaque">
+            <div class="destaque__titulo">
+                <h1 class="titulo-p1">Viva experiências inesquecíveis viajando conosco!</h1>
+                <h1 class="titulo-p2">Com a Travelfy você explora o mundo com <strong class="titulo-p2_lead">20%</strong> de desconto na primeira viagem.</h1>
+            </div>
+            <i class="destaque__saiba-mais fas fa-chevron-down"></i>
+        </section>
+        <section class="conteudo__secoes">
+            <div class="secoes__lead">
+                <div class="lead__mockup">
+                    <img class="mockup__img" src="./img/mockup_01_rm.png" alt="">
+                </div>
+                <div class="lead__texto">
+                    <h2 class="lead__texto-paragrafo">Viaje com a Travelfy e GANHE 
+                        <strong class="titulo-p2_lead lead__texto-titulo">30%</strong> de desconto na hospedagem
+                    </h2>
+                    <a class="lead__btn" href="">Quero desconto!</a>
+                </div>
+            </div>
+            <div class="secoes__pacotes">
+                <div class="pacotes__texto">
+                    <p class="pacotes__texto-paragrafo">
+                        <strong class="pacotes__destaque">Planos personalizados</strong> 
+                        para suas necessidades profissionais
+                    </p>
+                </div>
+                <div class="pacotes__btn">
+                    <a class="pacotes__btn-lead" href="">Saiba mais</a>
+                </div>
+                <div class="pacotes__texto-descricao">
+                    <p class="pacotes__texto-paragrafo">
+                        Confira nosso planos pensados para você não se preocupar
+                        com hospedagens e transporte durante sua jornada profissional
+                    </p>
+                </div>
+            </div>
+            <div class="secoes__viagens">
+                <h2 class="secoes__titulo titulo__viagens">Confira nossos pacotes</h2>
+                <div class="secoes__viagens-container">
+                    <div class="viagens__card card-01">
+                        <img class="card__img" src="./img/turismo__00.jpeg" alt="">
+                        <a class="card__ancora" href="#">7 noites</a>
+                        <p class="card__servico">translado + hospedagem</p>
+                        <p class="card__destino">Pacotes para Veneza</p>
+                        <div class="card__avaliacao">
+                            <p class="card__avalicao-numero">7.5</p>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                        </div>
+                        <p class="card__servico">Voe Latam</p>
+                        <div class="card__preco">
+                            <div class="card__preco-descricao">
+                                <p class="preco-descricao-usuario">Preço por pessoa</p>
+                                <div class="preco-valores">
+                                    <p class="preco-descricao-valor"><strong>R$<span>500,00</span></strong></p>
+                                    <p class="preco-descricao-valor__antigo">R$650,00</p>
+                                </div>
+                            </div>
+                            <p class="card__preco-desconto">-30%</p>
+                        </div>
+                    </div>
+                    <div class="viagens__card card-02">
+                        <img class="card__img" src="./img/turismo__03.jpeg" alt="">
+                        <a class="card__ancora" href="#">7 noites</a>
+                        <p class="card__servico">translado + hospedagem</p>
+                        <p class="card__destino">Pacotes para os Andes</p>
+                        <div class="card__avaliacao">
+                            <p class="card__avalicao-numero">7.5</p>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                        </div>
+                        <p class="card__servico">Voe Latam</p>
+                        <div class="card__preco">
+                            <div class="card__preco-descricao">
+                                <p class="preco-descricao-usuario">Preço por pessoa</p>
+                                <div class="preco-valores">
+                                    <p class="preco-descricao-valor"><strong>R$<span>500,00</span></strong></p>
+                                    <p class="preco-descricao-valor__antigo">R$650,00</p>
+                                </div>
+                            </div>
+                            <p class="card__preco-desconto">-30%</p>
+                        </div>
+                    </div>
+                    <div class="viagens__card card-03">
+                        <img class="card__img" src="./img/turismo__07.jpeg" alt="">
+                        <a class="card__ancora" href="#">7 noites</a>
+                        <p class="card__servico">translado + hospedagem</p>
+                        <p class="card__destino">Pacotes para o verão Europeu</p>
+                        <div class="card__avaliacao">
+                            <p class="card__avalicao-numero">7.5</p>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                        </div>
+                        <p class="card__servico">Voe Latam</p>
+                        <div class="card__preco">
+                            <div class="card__preco-descricao">
+                                <p class="preco-descricao-usuario">Preço por pessoa</p>
+                                <div class="preco-valores">
+                                    <p class="preco-descricao-valor"><strong>R$<span>500,00</span></strong></p>
+                                    <p class="preco-descricao-valor__antigo">R$650,00</p>
+                                </div>
+                            </div>
+                            <p class="card__preco-desconto">-30%</p>
+                        </div>
+                    </div>
+                    <div class="viagens__card card-04">
+                        <img class="card__img" src="./img/turismo__05.jpeg" alt="">
+                        <a class="card__ancora" href="#">7 noites</a>
+                        <p class="card__servico">translado + hospedagem</p>
+                        <p class="card__destino">Pacotes para Serra Gaúcha</p>
+                        <div class="card__avaliacao">
+                            <p class="card__avalicao-numero">7.5</p>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                            <i class="star fas fa-star"></i>
+                        </div>
+                        <p class="card__servico">Voe Latam</p>
+                        <div class="card__preco">
+                            <div class="card__preco-descricao">
+                                <p class="preco-descricao-usuario">Preço por pessoa</p>
+                                <div class="preco-valores">
+                                    <p class="preco-descricao-valor"><strong>R$<span>500,00</span></strong></p>
+                                    <p class="preco-descricao-valor__antigo">R$650,00</p>
+                                </div>
+                            </div>
+                            <p class="card__preco-desconto">-30%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="secoes__vantagens">
+                <h1 class="secoes__titulo titulo__vantagens">Nossas garantias para sua viagem</h1>
+                <p class="vantagens__paragrafo-titulo">
+                    Temos o compromisso é sempre lhe garantir a melhor experiência em nossos serviços
+                </p>
+                <div class="vantagens__cards-container">
+                    <div class="vantagens__cards vantagens__card-01">
+                        <i class="shield fas fa-shield-alt fa-2x"></i>
+                        <h2 class="vantagens__cards-titulo">Cuidamos da sua segurança</h2>
+                        <p class="vantagens__paragrafo-cards">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nam efficitur interdum finibus. Vivamus ipsum mauris, mollis 
+                            id efficitur non, malesuada at enim. Nam dui nibh, sodales eu 
+                            elit eu, finibus tristique purus.
+                        </p>
+                        <a class="vantagens__cards-botao" href="">Saiba mais</a>
+                    </div>
+                    <div class="vantagens__cards vantagens__card-01">
+                        <i class="wallet fas fa-wallet fa-2x"></i>
+                        <h2 class="vantagens__cards-titulo">Verificamos seus pagamentos</h2>
+                        <p class="vantagens__paragrafo-cards">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nam efficitur interdum finibus. Vivamus ipsum mauris, mollis 
+                            id efficitur non, malesuada at enim. Nam dui nibh, sodales eu 
+                            elit eu, finibus tristique purus.
+                        </p>
+                        <a class="vantagens__cards-botao" href="">Saiba mais</a>
+                    </div>
+                    <div class="vantagens__cards vantagens__card-01">
+                        <i class="cog fas fa-cog fa-2x"></i>
+                        <h2 class="vantagens__cards-titulo">Garantimos a prestação dos serviços</h2>
+                        <p class="vantagens__paragrafo-cards">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nam efficitur interdum finibus. Vivamus ipsum mauris, mollis 
+                            id efficitur non, malesuada at enim. Nam dui nibh, sodales eu 
+                            elit eu, finibus tristique purus.
+                        </p>
+                        <a class="vantagens__cards-botao" href="">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="rodape">
+            <div class="rodape__container">
+                <ul class="lista__travelfy">
+                    <h2 class="atendimento__active">Sobre a Travelfy</h2>
+                    <li><a class="lista__atendimento-link" href="">Termos e condições</a></li>
+                    <li><a class="lista__atendimento-link" href="">Política e privacidade</a></li>
+                    <li><a class="lista__atendimento-link" href="">Fale conosco</a></li>
+                    <li><a class="lista__atendimento-link" href="">FAQ</a></li>
+                </ul>
+                <div class="container__pagamento">
+                    <h2 class="container__pagamento-titulo">Formas de pagamento:</h2>
+                    <i class="credit__card fab fa-cc-visa"></i>
+                    <i class="credit__card fab fa-cc-mastercard"></i>
+                    <i class="credit__card fab fa-cc-paypal"></i>
+                    <i class="credit__card fab fa-cc-amazon-pay"></i>
+                </div>
+                <ul class="lista__atendimento">
+                    <h2 class="atendimento__active">Televendas</h2>
+                    <li><a class="lista__atendimento-link" href="">Segunda à sexta - 08h às 22h.</a></li>
+                    <li><a class="lista__atendimento-link" href="">Sábado - 09h às 21h.</a></li>
+                    <li><a class="lista__atendimento-link" href="">Domingo e feriados - 09h às 21h</a></li>
+                    <li><a class="lista__atendimento-link" href="">vendas@travefy.com.br</a></li>
+                </ul>
+            </div>
+            <div class="rodape__base">
+                <div class="rodape__logo">
+                    <h1 class="rodape__logo-titulo">Travelfy</h1>
+                    <i class="fas fa-plane-departure"></i>
+                </div>
+                <div class="rodape__copyright">
+                    <span>2021&copy; - Travelfy viagens - Powered by DFG Solutions - <a class="copyright__link" href="http://www.dfgsolutions.com.br">www.dfgsolutions.com.br</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bibliotecas -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" 
+    crossorigin="anonymous"></script>
+    <script src="./js/fontawesome-all.js"></script>
+    <script src="./js/Jquery3.4.1.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

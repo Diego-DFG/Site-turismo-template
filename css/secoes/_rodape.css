@@ -1,0 +1,47 @@
+.rodape {
+    height: 30rem;
+    background: rgba(0,0,0,0.03);
+}
+
+.rodape__container {
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    margin: 0 2rem;
+    color: var(--cinza);
+}
+
+.atendimento__active, .container__pagamento-titulo {
+    margin-bottom: 2rem;
+    color: var(--preto);
+}
+
+.lista__atendimento-link {
+    color: var(--cinza);
+}
+
+.rodape__base {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    background: rgba(0,0,0,0.04);
+}
+
+.credit__card {
+    font-size: 3rem;
+    color: var(--preto);
+}
+
+.rodape__copyright {
+    display: flex;
+    margin-left: 3rem;
+}
+
+.copyright__link {
+    color: var(--cinza);
+}
+
+.copyright__link:hover {
+    color: var(--cinza);
+}

@@ -1,0 +1,38 @@
+.secoes__pacotes {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    background: yellow;
+}
+
+.pacotes__texto {
+    width: 25%;
+}
+
+.pacotes__img {
+    width: 70%;
+    background: url(../../img/turismo__02.jpeg)no-repeat;
+    background-size: cover;
+}
+
+.pacotes__texto-paragrafo {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pacotes__texto-descricao {
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.pacotes__btn {
+    margin-top: 1.5rem;
+}
+
+.pacotes__destaque {
+    background: #000;
+    color: var(--branco);
+    padding: 0.1rem 0.3rem;
+}
