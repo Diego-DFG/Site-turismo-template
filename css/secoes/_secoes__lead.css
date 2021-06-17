@@ -1,3 +1,5 @@
+@import url(../componentes/_botoes.css);
+
 .secoes__lead {
     height: 30rem;
     display: flex;
