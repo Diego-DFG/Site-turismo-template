@@ -123,8 +123,54 @@
 /********* Vantagens **********/
 
 .secoes__vantagens {
+    height: 120rem;
+
+}
+
+.vantagens__cards-container {
+    flex-direction: column;
+}
+
+.vantagens__cards {
+    width: 90%;
+}
+
+/************ Rodapé ***************/
+
+.rodape {
     height: 70rem;
 }
 
+.rodape__container {
+    flex-direction: column;
+    height: 70%;
+}
+
+.rodape__base {
+    height: 30%;
+    flex-direction: column;
+}
+
+.rodape__logo {
+    margin-top: 6rem;
+}
+
+.rodape__copyright {
+    margin-top: 2rem;
+}
+
+.lista__travelfy {
+    height: 40%;
+}
+
+.lista__atendimento {
+    height: 40%;
+}
+
+.container__pagamento {
+    height: 20%;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+}
     
 }
