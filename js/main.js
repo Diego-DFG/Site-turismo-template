@@ -1,22 +1,27 @@
 const botaoNavbar = document.querySelector('.navbar-toggler');
+const navegacao = document.querySelector('.navegacao');
+
 var clicked = false;
 
-botaoNavbar.addEventListener('click', function(e) {
-    e.preventDefault();
+function botaoToggle(elemento) {
 
     if(clicked) {
-        let navegacao = document.querySelector('.navegacao');
-        navegacao.style.height='10rem';
-        navegacao.style.transition='2s';
+        elemento.style.height='10rem';
+        elemento.style.transition='2s';
         clicked = false;
         console.log(clicked);
     } else {
-        let navegacao = document.querySelector('.navegacao');
-        navegacao.style.height='100vh';
-        navegacao.style.transition='0.2s';
+        elemento.style.height='100vh';
+        elemento.style.transition='0.2s';
 
         clicked = true;
         console.log(clicked);
     }
 
+}
+
+botaoNavbar.addEventListener('click', (e)=> {
+    e.preventDefault();
+  
+    botaoToggle(navegacao)
 });
